@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header, footer, .hero {
+  background-color: #1F2937;
+}
+
+.hero {
+  padding-bottom: 100px;
+}
+
+.laviniamain {
+  margin-left: 1050px;
+  margin-top: -170px;
+}
+
+.lavinia {
+  border-radius: 5px;
+  border: none
+}
+
+.headerlogotext {
+  font-size: 24px;
+  color: #F9FAF8;
+  cursor: pointer;
+  padding-left: 150px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.headerlinks {
+  list-style: none;
+  padding-right: 150px;
+  padding-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: white
+}
+
+.heromaintext {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  width: 500px;
+  padding-left: 150px;
+  padding-top: 100px;
+}
+
+.herosecondarytext {
+  font-size: 18px;
+  color: #E5E7EB;
+  width: 450px;
+  padding-left: 150px;
+  padding-top: 5px;
+}
+
+.herothirdtext {
+  font-size: 10px;
+  color: #E5E7EB;
+  width: 450px;
+  padding-left: 150px;
+  padding-top: 5px;
+  opacity: 0.5;
+}
+
+.bluepart {
+  margin-top: 40px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+.informationheadertext {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  width: 429px;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.bluebox {
+  border: 4px solid #3882F6;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.quotesection {
+  background-color: #E5E7EB;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quotetext {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1F2937;
+  width: 810px;
+  margin: 0 auto;
+}
+
+.quotee {
+  margin-left: 1180px;
+  margin-right: auto;
+  width: 154px;
+  font-weight: bold;
+}
+
+.action {
+  background-color: #3882F6;
+  color: white;
+  width: 800px;
+  margin: 70px auto;
+  border-radius: 10px;
+  padding: 40px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup2 {
+  background-color: #3882F6;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 6px 25px;
+  font-weight: 600;
+  font-size: 11px;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+.signup2:hover {
+  color:#3882F6;
+  background-color: white;
+}
+
+footer {
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.imagesubtext {
+  text-align: center;
+  margin-top: 5px;
+}
