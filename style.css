@@ -122,8 +122,8 @@ ul li a {
   color: #1F2937;
   width: 810px;
   margin: 0 auto;
+  text-align: center;
 }
-
 .quotee {
   margin-left: 1180px;
   margin-right: auto;
@@ -158,6 +158,10 @@ ul li a {
 .signup2:hover {
   color:#3882F6;
   background-color: white;
+}
+
+.left {
+  align-self: center;
 }
 
 footer {
