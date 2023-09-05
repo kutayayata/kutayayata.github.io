@@ -2,178 +2,39 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+body {
+  background-image: url('https://img.freepik.com/premium-vector/poker-table-background-green-color_47243-1094.jpg?w=2000');
   margin: 0;
-  padding: 0;
 }
 
-.action {
-  background-color: #3882F6;
-  border-radius: 10px;
+h1 {
+  color: goldenrod;
+}
+
+p {
   color: white;
-  display: flex;
-  justify-content: space-between;
-  margin: 70px auto;
-  padding: 40px 100px;
-  width: 800px;
+  font-size: 20px;
 }
 
-.bluebox {
-  border: 4px solid #3882F6;
-  border-radius: 10px;
-  height: 200px;
-  width: 200px;
-}
-
-.bluepart {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 100px;
-  margin-bottom: 150px;
-  margin-top: 40px;
-  margin-top: 40px;
-}
-
-footer {
-  color: white;
-  padding-bottom: 30px;
-  padding-top: 30px;
-  text-align: center;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-header, footer, .hero {
-  background-color: #1F2937;
-}
-
-.headerlinks {
-  list-style: none;
-  padding-right: 150px;
-  padding-top: 20px;
-}
-
-.headerlogotext {
-  color: #F9FAF8;
-  cursor: pointer;
-  font-size: 24px;
-  font-weight: bold;
-  padding-left: 150px;
-  padding-top: 20px;
-}
-
-.heromaintext {
-  color: #F9FAF8;
-  font-size: 48px;
-  font-weight: 800;
-  padding-left: 150px;
-  padding-top: 100px;
-  width: 500px;
-}
-
-.hero {
-  padding-bottom: 100px;
-}
-
-.herothirdtext {
-  color: #E5E7EB;
-  font-size: 10px;
-  opacity: 0.5;
-  padding-left: 150px;
-  padding-top: 5px;
-  width: 450px;
-}
-
-.herosecondarytext {
-  color: #E5E7EB;
-  font-size: 18px;
-  padding-left: 150px;
-  padding-top: 5px;
-  width: 450px;
-}
-
-.imagesubtext {
-  margin-top: 5px;
-  text-align: center;
-}
-
-.informationheadertext {
-  color: #1F2937;
-  font-size: 36px;
-  font-weight: 800;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 40px;
-  text-align: center;
-  width: 429px;
-}
-
-.lavinia {
+button {
   border: none;
   border-radius: 5px;
-}
-
-.laviniamain {
-  margin-left: 55vw;
-  margin-top: -7vw;
-}
-
-.left {
-  align-self: center;
-}
-
-.quotee {
-  font-weight: bold;
-  margin-left: 65%;
-  margin-right: auto;
-  width: 154px;
-}
-
-.quotesection {
-  background-color: #E5E7EB;
-  padding-bottom: 100px;
-  padding-top: 100px;
-}
-
-.quotetext {
-  color: #1F2937;
-  font-size: 36px;
-  font-style: italic;
-  font-weight: lighter;
-  margin: 0 auto;
-  text-align: center;
-  width: 810px;
-}
-
-.signup2 {
-  background-color: #3882F6;
-  border: 2px solid white;
-  border-radius: 7px;
-  color: white;
+  background-color: goldenrod;
+  color: #016f32;
   cursor: pointer;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 6px 25px;
-  text-decoration: none;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin: 5px auto;
+  padding: 10px;
   transition: background-color 0.15s, color 0.15s;
+  width: 150px;
 }
 
-.signup2:hover {
-  background-color: white;
-  color: #3882F6;
-}
-
-ul li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-ul li a {
-  color: white;
-  display: inline-block;
-  text-decoration: none;
+button:hover {
+  background-color: #016f32;
+  color: goldenrod;
 }
