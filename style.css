@@ -127,7 +127,7 @@ header, footer, .hero {
   font-weight: 800;
   padding-left: 150px;
   padding-top: 100px;
-  width: 25%;
+  width: 35%;
 }
 
 .hero {
@@ -148,7 +148,7 @@ header, footer, .hero {
   font-size: 18px;
   padding-left: 150px;
   padding-top: 5px;
-  width: 24%;
+  width: 32%;
 }
 
 .imagesubtext {
@@ -167,8 +167,8 @@ header, footer, .hero {
 }
 
 .mirketmain {
-  margin-left: 55vw;
-  margin-top: -7vw;
+  margin-left: 800px;
+  margin-top: -200px;
 }
 
 .left {
