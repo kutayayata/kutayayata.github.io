@@ -1,9 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  font: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 .action {
@@ -14,7 +60,7 @@
   justify-content: space-between;
   margin: 70px auto;
   padding: 40px 100px;
-  width: 800px;
+  width: 40%;
 }
 
 .bluebox {
@@ -51,8 +97,12 @@ header, footer, .hero {
   background-color: #1F2937;
 }
 
+.mirket {
+  border:none;
+  border-radius: 4px;
+}
+
 .headerlinks {
-  list-style: none;
   padding-right: 150px;
   padding-top: 20px;
 }
@@ -77,7 +127,7 @@ header, footer, .hero {
   font-weight: 800;
   padding-left: 150px;
   padding-top: 100px;
-  width: 500px;
+  width: 25%;
 }
 
 .hero {
@@ -90,7 +140,7 @@ header, footer, .hero {
   opacity: 0.5;
   padding-left: 150px;
   padding-top: 5px;
-  width: 450px;
+  width: 40%;
 }
 
 .herosecondarytext {
@@ -98,7 +148,7 @@ header, footer, .hero {
   font-size: 18px;
   padding-left: 150px;
   padding-top: 5px;
-  width: 450px;
+  width: 24%;
 }
 
 .imagesubtext {
@@ -114,7 +164,6 @@ header, footer, .hero {
   margin-right: auto;
   margin-top: 40px;
   text-align: center;
-  width: 429px;
 }
 
 .mirketmain {
@@ -130,7 +179,6 @@ header, footer, .hero {
   font-weight: bold;
   margin-left: 65%;
   margin-right: auto;
-  width: 154px;
 }
 
 .quotesection {
@@ -146,7 +194,6 @@ header, footer, .hero {
   font-weight: lighter;
   margin: 0 auto;
   text-align: center;
-  width: 810px;
 }
 
 .signup2 {
